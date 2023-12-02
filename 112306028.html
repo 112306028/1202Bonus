@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #afbeb4;
+      margin: 0;
+    }
+
+    #form-container {
+      width: 85%;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+      overflow: hidden;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+      float: left;
+      width: 70px;
+      font-size: 12px;
+    }
+
+    input, textarea {
+      width: 80%; 
+      padding: 12px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      resize: none; 
+    }
+
+    #image-container {
+      width: 90%;
+      margin-top: 2%;
+    }
+
+    img {
+      width: 90%; 
+      height: auto;
+      border-radius: 5px;
+      float: right;
+    }
+
+    .float-on-same-row {
+      float: right;
+      width: 45%;
+      margin-left: 5%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div id="form-container">
+    <div class="form-group">
+      <label>input1</label>
+      <input type="text" name="input1" placeholder="input1">
+    </div>
+    <div class="form-group">
+      <label>input2</label>
+      <input type="text" name="input2" placeholder="input2">
+    </div>
+    <div class="form-group float-on-same-row">
+      <label>input4</label>
+      <input type="text" name="input4" placeholder="input4">
+    </div>
+    
+    <div class="form-group">
+      <label >input3</label>
+      <input type="text" name="input3" placeholder="input3">
+    </div>
+    <div class="form-group">
+      <label>textarea</label>
+      <textarea name="textarea" rows="4" placeholder="not resizable"></textarea>
+    </div>
+    <div id="image-container">
+      <label>picture1</label>
+      <img src="./IMG_0075.jpg" alt="Form Image">
+    </div>
+  </div>
+
+</body>
+</html>
